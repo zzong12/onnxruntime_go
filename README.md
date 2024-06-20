@@ -8,7 +8,7 @@ This library seeks to provide an interface for loading and executing neural
 networks from Go(lang) code, while remaining as simple to use as possible.
 
 A few example applications using this library can be found in the
-[`onnxruntime_go_examples` repository](https://github.com/yalue/onnxruntime_go_examples).
+[`onnxruntime_go_examples` repository](https://github.com/zzong12/onnxruntime_go_examples).
 
 The [onnxruntime](https://github.com/microsoft/onnxruntime) library provides a
 way to load and execute ONNX-format neural networks, though the library
@@ -85,11 +85,11 @@ for more specifics.
 Example Usage
 -------------
 
-The full documentation can be found at [pkg.go.dev](https://pkg.go.dev/github.com/yalue/onnxruntime_go).
+The full documentation can be found at [pkg.go.dev](https://pkg.go.dev/github.com/zzong12/onnxruntime_go).
 
 Additionally, several example command-line applications complete with necessary
 networks and data can be found in the
-[`onnxruntime_go_examples` repository](https://github.com/yalue/onnxruntime_go_examples).
+[`onnxruntime_go_examples` repository](https://github.com/zzong12/onnxruntime_go_examples).
 
 The following example illustrates how this library can be used to load and run
 an ONNX network taking a single input tensor and producing a single output
@@ -100,7 +100,7 @@ non-nil in the case of failure.
 ```go
 import (
     "fmt"
-    ort "github.com/yalue/onnxruntime_go"
+    ort "github.com/zzong12/onnxruntime_go"
     "os"
 )
 
